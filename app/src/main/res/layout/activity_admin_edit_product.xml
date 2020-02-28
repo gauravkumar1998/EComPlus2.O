@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Widget.MaterialComponents.CardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/mtrl_card_spacing"
+    android:layout_marginTop="@dimen/mtrl_card_spacing"
+    android:layout_marginRight="@dimen/mtrl_card_spacing"
+    android:minHeight="200dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/pDescEdit"
+            style="@style/CardView"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pPriceEdit"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:ems="10"
+            android:hint="Product Description"
+            android:inputType="textPersonName" />
+
+        <ImageView
+            android:id="@+id/product_image"
+            android:layout_width="match_parent"
+            android:layout_height="339dp"
+            android:scaleType="centerInside" />
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignTop="@+id/product_image"
+            android:layout_alignBottom="@+id/product_image"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="bottom|end"
+            android:layout_marginStart="331dp"
+            android:layout_marginLeft="331dp"
+            android:layout_marginTop="307dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="-25dp"
+            app:srcCompat="@drawable/baseline_delete_outline_black_48dp" />
+
+        <EditText
+            android:id="@+id/pPriceEdit"
+            style="@style/CardView"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pNameEdit"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:ems="10"
+            android:hint="Product Price"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/pNameEdit"
+            style="@style/Base.CardView"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_image"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:ems="10"
+            android:hint="Product Name"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/apply"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pDescEdit"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="74dp"
+            android:layout_marginLeft="74dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="76dp"
+            android:layout_marginRight="76dp"
+            android:background="@color/colorPrimary"
+            android:padding="17dp"
+
+            android:text="Apply Changes"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <!--<TextView
+             android:id="@+id/product_description"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/product_price"
+             android:layout_marginTop="0dp"
+             android:text="Product Description"
+             android:textAlignment="center"
+             android:textColor="@color/colorPrimaryDark"
+             android:textSize="16dp" />-->
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
+

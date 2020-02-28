@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "172003307398",
+    "firebase_url": "https://ecommerce-85481.firebaseio.com",
+    "project_id": "ecommerce-85481",
+    "storage_bucket": "ecommerce-85481.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172003307398:android:4b346409bee5ac0a16c607",
+        "android_client_info": {
+          "package_name": "com.example.lajoya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172003307398-jt2lq8ci37if5kqse9nnqcl0d64ff9qm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lajoya",
+            "certificate_hash": "833067cbeaccdf4c918c2da13ae97ea541985992"
+          }
+        },
+        {
+          "client_id": "172003307398-0mngcpm5js9h7aa0gmhnnsqpa9o8nbnf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKQVRW-PKcU14rSA3_zrKtL-ZMppnRen8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172003307398-0mngcpm5js9h7aa0gmhnnsqpa9o8nbnf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
