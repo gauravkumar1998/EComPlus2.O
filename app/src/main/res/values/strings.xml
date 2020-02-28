@@ -17,4 +17,6 @@
     <string name="title_activity_guest">GuestActivity</string>
     <string name="title_activity_categories">CategoriesActivity</string>
     <string name="register">Register</string>
+    <string name="cart">Cart</string>
+    <string name="voice">voice</string>
 </resources>

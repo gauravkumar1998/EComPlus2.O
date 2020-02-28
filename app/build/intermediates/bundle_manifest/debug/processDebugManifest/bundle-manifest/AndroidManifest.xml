@@ -28,7 +28,6 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:largeHeap="true"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
@@ -70,9 +69,11 @@
         <activity android:name="com.example.lajoya.AdminCategoryActivity" />
         <activity
             android:name="com.example.lajoya.RegisterActivity"
+            android:noHistory="true"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.example.lajoya.LoginActivity"
+            android:noHistory="true"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.example.lajoya.MainActivity"

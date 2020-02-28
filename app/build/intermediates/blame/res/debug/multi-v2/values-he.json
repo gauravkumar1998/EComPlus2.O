@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/root/Documents/college_project/EComPlus2.O/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-he/values-he.xml",
+            "outputFile": "D:\\AndroidStudio\\EComPlus2.O\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-he\\values-he.xml",
             "map": [
                 {
-                    "source": "/root/.gradle/caches/transforms-2/files-2.1/c1af07555bf0052735c84495961e4047/res/values-he/values-he.xml",
+                    "source": "C:\\Users\\gauti\\.gradle\\caches\\transforms-2\\files-2.1\\7282a82cabbd0ce5c7e296a78916c6e6\\jetified-android-image-cropper-2.7.0\\res\\values-he\\values-he.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

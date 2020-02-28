@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,18 +33,20 @@ public class SearchProductsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_products);
-
         inputText = findViewById(R.id.search_product_name);
         SearchBtn = findViewById(R.id.search_btn);
         searchList = findViewById(R.id.search_list);
 
 
-        
+
+        final String item=getIntent().getStringExtra("item");
         searchList.setLayoutManager(new GridLayoutManager(this,2));
 
         SearchBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                String x ="";
+                inputText.setText(item);
                 SearchInput = inputText.getText().toString().toUpperCase();
 
                 onStart();
