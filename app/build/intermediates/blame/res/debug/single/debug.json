@@ -56,12 +56,12 @@
         "source": "D:\\AndroidStudio\\EComPlus2.O\\app\\src\\main\\res\\layout\\activity_admin_check_order_category.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\EComPlus2.O\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_camera.xml.flat",
-        "source": "D:\\AndroidStudio\\EComPlus2.O\\app\\src\\main\\res\\drawable-v21\\ic_menu_camera.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\EComPlus2.O\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_slideshow.png.flat",
         "source": "D:\\AndroidStudio\\EComPlus2.O\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_menu_slideshow.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\EComPlus2.O\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_camera.xml.flat",
+        "source": "D:\\AndroidStudio\\EComPlus2.O\\app\\src\\main\\res\\drawable-v21\\ic_menu_camera.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\EComPlus2.O\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",

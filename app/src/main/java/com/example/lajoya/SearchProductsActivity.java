@@ -13,6 +13,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.lajoya.Model.Products;
 import com.example.lajoya.ViewHolder.ProductViewHolder;
@@ -38,15 +40,21 @@ public class SearchProductsActivity extends AppCompatActivity {
         searchList = findViewById(R.id.search_list);
 
 
-
         final String item=getIntent().getStringExtra("item");
+
+        if(item!=null){
+            inputText.setText(item);
+            SearchInput = inputText.getText().toString().toUpperCase();
+            onStart();
+        }else{
+            Toast.makeText(this, "Please search here", Toast.LENGTH_SHORT).show();
+        }
         searchList.setLayoutManager(new GridLayoutManager(this,2));
 
         SearchBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String x ="";
-                inputText.setText(item);
+
                 SearchInput = inputText.getText().toString().toUpperCase();
 
                 onStart();

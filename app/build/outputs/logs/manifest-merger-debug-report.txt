@@ -255,7 +255,7 @@ ADDED from D:\AndroidStudio\EComPlus2.O\app\src\main\AndroidManifest.xml:43:9-82
 	android:name
 		ADDED from D:\AndroidStudio\EComPlus2.O\app\src\main\AndroidManifest.xml:43:19-79
 activity#com.example.lajoya.HomeActivity
-ADDED from D:\AndroidStudio\EComPlus2.O\app\src\main\AndroidManifest.xml:44:9-47:59
+ADDED from D:\AndroidStudio\EComPlus2.O\app\src\main\AndroidManifest.xml:44:9-47:58
 	android:label
 		ADDED from D:\AndroidStudio\EComPlus2.O\app\src\main\AndroidManifest.xml:46:13-56
 	android:theme

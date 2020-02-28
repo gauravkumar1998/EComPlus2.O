@@ -143,7 +143,7 @@
 64-->D:\AndroidStudio\EComPlus2.O\app\src\main\AndroidManifest.xml:43:9-82
 64-->D:\AndroidStudio\EComPlus2.O\app\src\main\AndroidManifest.xml:43:19-79
 65        <activity
-65-->D:\AndroidStudio\EComPlus2.O\app\src\main\AndroidManifest.xml:44:9-47:59
+65-->D:\AndroidStudio\EComPlus2.O\app\src\main\AndroidManifest.xml:44:9-47:58
 66            android:name="com.example.lajoya.HomeActivity"
 66-->D:\AndroidStudio\EComPlus2.O\app\src\main\AndroidManifest.xml:45:13-59
 67            android:label="@string/title_activity_home"

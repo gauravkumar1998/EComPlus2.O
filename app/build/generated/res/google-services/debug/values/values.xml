@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">172003307398-0mngcpm5js9h7aa0gmhnnsqpa9o8nbnf.apps.googleusercontent.com</string>
-    <string name="firebase_database_url" translatable="false">https://ecommerce-85481.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">172003307398</string>
-    <string name="google_api_key" translatable="false">AIzaSyBKQVRW-PKcU14rSA3_zrKtL-ZMppnRen8</string>
-    <string name="google_app_id" translatable="false">1:172003307398:android:4b346409bee5ac0a16c607</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBKQVRW-PKcU14rSA3_zrKtL-ZMppnRen8</string>
-    <string name="google_storage_bucket" translatable="false">ecommerce-85481.appspot.com</string>
-    <string name="project_id" translatable="false">ecommerce-85481</string>
+    <string name="default_web_client_id" translatable="false">869868887554-0qfebbesgo2brn86jia94a8gl5p746jb.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://lajoya-e53a4.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">869868887554</string>
+    <string name="google_api_key" translatable="false">AIzaSyBS2DsxMpKE-8xqABU2GtX3w7Cz0i46M5k</string>
+    <string name="google_app_id" translatable="false">1:869868887554:android:e6f70f640f150db749111b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBS2DsxMpKE-8xqABU2GtX3w7Cz0i46M5k</string>
+    <string name="google_storage_bucket" translatable="false">lajoya-e53a4.appspot.com</string>
+    <string name="project_id" translatable="false">lajoya-e53a4</string>
 </resources>

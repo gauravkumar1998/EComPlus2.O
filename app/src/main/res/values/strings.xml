@@ -19,4 +19,5 @@
     <string name="register">Register</string>
     <string name="cart">Cart</string>
     <string name="voice">voice</string>
+    <string name="product_name">Product Name</string>
 </resources>

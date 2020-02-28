@@ -44,7 +44,7 @@
         <activity
             android:name="com.example.lajoya.HomeActivity"
             android:label="@string/title_activity_home"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name="com.example.lajoya.AdminCategoryActivity" />
         <activity android:name="com.example.lajoya.RegisterActivity"
             android:theme="@style/AppTheme.NoActionBar"

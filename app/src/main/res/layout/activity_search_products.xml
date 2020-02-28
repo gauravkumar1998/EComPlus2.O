@@ -30,7 +30,7 @@
             android:layout_toStartOf="@+id/search_btn"
             android:layout_toLeftOf="@+id/search_btn"
             android:background="@android:color/white"
-            android:hint="Product Name"
+            android:hint="@string/product_name"
             android:padding="9dp"
             android:textColorHint="@color/colorPrimaryDark"
             android:textSize="18dp"
